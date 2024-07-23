@@ -1,0 +1,2124 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'tr' Physical Memory: 8026 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/zsdum/bootcamp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64235
+Successfully changed project path to: C:/Users/zsdum/bootcamp
+C:/Users/zsdum/bootcamp
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15612] Host "[IP] 10.22.235.15 [Port] 0 [Flags] 2 [Guid] 2457198669 [EditorId] 2457198669 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SLVBFLU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15612] Host "[IP] 10.22.235.15 [Port] 0 [Flags] 2 [Guid] 2457198669 [EditorId] 2457198669 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SLVBFLU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 2212.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zsdum/bootcamp/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1289
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.212165 seconds.
+- Loaded All Assemblies, in  8.852 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.410 seconds
+Domain Reload Profiling: 9259ms
+	BeginReloadAssembly (6571ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (579ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (285ms)
+	LoadAllAssembliesAndSetupDomain (1400ms)
+		LoadAssemblies (6569ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1397ms)
+			TypeCache.Refresh (1395ms)
+				TypeCache.ScanAssembly (1020ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.059 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.735 seconds
+Domain Reload Profiling: 6791ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (5763ms)
+		LoadAssemblies (5200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (680ms)
+			TypeCache.Refresh (657ms)
+				TypeCache.ScanAssembly (590ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3576.
+Memory consumption went from 137.3 MB to 137.2 MB.
+Total: 4.431400 ms (FindLiveObjects: 0.492400 ms CreateObjectMapping: 0.503800 ms MarkObjects: 3.300100 ms  DeleteObjects: 0.134000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 517128.671922 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/crypt-large-roof.obj
+  artifactKey: Guid(0cd4e17545207fc42a4234c36ef5bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/crypt-large-roof.obj using Guid(0cd4e17545207fc42a4234c36ef5bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e91be61b945397bd8ced688ddc2681') in 0.193592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/cross.obj
+  artifactKey: Guid(290b6ccaf312b3740b4bc5dd47f55c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/cross.obj using Guid(290b6ccaf312b3740b4bc5dd47f55c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efd04ba5a12bc1221fa93440bcdaeeb') in 0.046208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/character-female-d.obj
+  artifactKey: Guid(8a5ef1b1947fa7b489e814c6d0f051fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/character-female-d.obj using Guid(8a5ef1b1947fa7b489e814c6d0f051fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f364ec9370a607aec4526c9840d3781') in 0.061672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/platformer kit/models/spike-block-wide.obj
+  artifactKey: Guid(ab3411f6e531d0e47a44dd606ab7fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/spike-block-wide.obj using Guid(ab3411f6e531d0e47a44dd606ab7fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eafc80ead4bee30302b518ab013d9db') in 0.065504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-long.obj
+  artifactKey: Guid(0777e1802994fab4187855a26186abae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-long.obj using Guid(0777e1802994fab4187855a26186abae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372f39c6be7817f1eaf2924adaaba9fd') in 0.048543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tree-tall.obj
+  artifactKey: Guid(bace9df579792cb4cb5be3eeaf57a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tree-tall.obj using Guid(bace9df579792cb4cb5be3eeaf57a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f18912d0256c5fa5c207ea68ac4326d') in 0.059553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/bench-damaged.obj
+  artifactKey: Guid(2769334a17d24db428ebf27f5cf1590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/bench-damaged.obj using Guid(2769334a17d24db428ebf27f5cf1590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ee1955f1a75097dca307aa094e6f4c') in 0.044170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/pine-fall.obj
+  artifactKey: Guid(a4260fc9d1ffab74e9d83f8559ba6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/pine-fall.obj using Guid(a4260fc9d1ffab74e9d83f8559ba6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6ff89887551aab621c74498cc7a30f') in 0.042635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/trunk-long.obj
+  artifactKey: Guid(50e926113a10f4b418f4629df9f6a0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/trunk-long.obj using Guid(50e926113a10f4b418f4629df9f6a0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa01d1b3bf76cae47967bd10690879dd') in 0.036427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/wall-half.fbx
+  artifactKey: Guid(812ffd584433d734190157d9cf419746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/wall-half.fbx using Guid(812ffd584433d734190157d9cf419746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214a48fe04e56ed11a58a779ea68d265') in 0.039154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/wood-support.fbx
+  artifactKey: Guid(e4fc045ff8e00b84e9e9c68583868072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/wood-support.fbx using Guid(e4fc045ff8e00b84e9e9c68583868072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbf986a8ff373e79ee557d089c5b8f4') in 0.037308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/platformer kit/models/grass.obj
+  artifactKey: Guid(5a25abb1f5245fe4b98b6681af77c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/grass.obj using Guid(5a25abb1f5245fe4b98b6681af77c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d5e626d80e54f50a11e102f9c1ded9') in 0.040527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/pumpkin-tall-carved.obj
+  artifactKey: Guid(84e59a02e38a5af49bcb480718b13c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/pumpkin-tall-carved.obj using Guid(84e59a02e38a5af49bcb480718b13c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88cdd4c7472f83e95e36408d6a48bf5') in 0.031746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/platformer kit/models/block-snow-large-slope-narrow.obj
+  artifactKey: Guid(12ab1b4a6ff3ab849b13bb5061bbbadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-large-slope-narrow.obj using Guid(12ab1b4a6ff3ab849b13bb5061bbbadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410dfa1906d8514f23b8c0f569741d57') in 0.034929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/platformer kit/models/door-open.obj
+  artifactKey: Guid(f30ca6301a199eb4885c0e093a84e2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/door-open.obj using Guid(f30ca6301a199eb4885c0e093a84e2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc97605fec888ba1875e54f14315fd48') in 0.032069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/aid_hearing.fbx
+  artifactKey: Guid(7e1cd76ea3e42cc4dbb2474b0ccaa71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/aid_hearing.fbx using Guid(7e1cd76ea3e42cc4dbb2474b0ccaa71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7c684ef55d188891437cf95289f953') in 0.032583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/iron-fence.obj
+  artifactKey: Guid(7cec30b3500f7de42afc66a4cae27165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/iron-fence.obj using Guid(7cec30b3500f7de42afc66a4cae27165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201651622f8d8b1205925dc8d72b6bd9') in 0.031208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/survivorkit/Models/OBJ format/signpost.obj
+  artifactKey: Guid(f7ff7cc21c7cb1741a9648126edac357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/signpost.obj using Guid(f7ff7cc21c7cb1741a9648126edac357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f49eab838ad59a7c74ea614cb49702') in 0.035368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/pillar-square.obj
+  artifactKey: Guid(939db65b97684484bb9a10a7cd5d9f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/pillar-square.obj using Guid(939db65b97684484bb9a10a7cd5d9f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847beee728bb340a387aa21245ff8be6') in 0.041631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/dirt.fbx
+  artifactKey: Guid(f2b4aeb2775ba9f43a2c11b38d00bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/dirt.fbx using Guid(f2b4aeb2775ba9f43a2c11b38d00bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a052478b546871359fc2577ca130e01') in 0.025327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/crypt-small-roof.obj
+  artifactKey: Guid(4001787e78517f14398352811d3f9df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/crypt-small-roof.obj using Guid(4001787e78517f14398352811d3f9df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9eb7dfc679f8375df03e8232f63e19a') in 0.034188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/platformer kit/models/coin-gold.obj
+  artifactKey: Guid(accec8d1abaf30f4f972251a0ea9629b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/coin-gold.obj using Guid(accec8d1abaf30f4f972251a0ea9629b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72f8ffd86771ae9a3b9c9748d464a4f') in 0.034520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/platformer kit/models/block-snow-low-long.obj
+  artifactKey: Guid(bd7b6717109e9654ea3c2420c57eccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-low-long.obj using Guid(bd7b6717109e9654ea3c2420c57eccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f112b55f3c9276385bb63a0d5edcf4ab') in 0.038841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/aid-sunglasses.obj
+  artifactKey: Guid(e25d89da71b46b94b9296e5bd8b5b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/aid-sunglasses.obj using Guid(e25d89da71b46b94b9296e5bd8b5b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dff14a912466e87a242f71deafe53b8') in 0.033695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/platformer kit/models/crate-strong.obj
+  artifactKey: Guid(7c2d9a42a3eed3b46a8cc242fe11823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/crate-strong.obj using Guid(7c2d9a42a3eed3b46a8cc242fe11823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263b6da12347b2a8e0d3491b084b0f63') in 0.045550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/survivorkit/Models/OBJ format/metal-panel-screws-narrow.obj
+  artifactKey: Guid(ba4900cb0b951e44994f4f06e41524e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/metal-panel-screws-narrow.obj using Guid(ba4900cb0b951e44994f4f06e41524e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172c2e767799baa7bac824b9b9c740f7') in 0.035262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/character-ghost.obj
+  artifactKey: Guid(6d010d3d23db08542a12e5a4fd0ccd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/character-ghost.obj using Guid(6d010d3d23db08542a12e5a4fd0ccd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d3352703e049684519c0aebd82813b') in 0.068627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/platformer kit/models/block-snow-hexagon.obj
+  artifactKey: Guid(976e54061dd81a44380989e56042bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-hexagon.obj using Guid(976e54061dd81a44380989e56042bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f011aad7b299179b32c1921c1c83886b') in 0.037422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/wall-half.obj
+  artifactKey: Guid(3e1d324b64d8b2549a640359f177b23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/wall-half.obj using Guid(3e1d324b64d8b2549a640359f177b23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0910d70be0a66f3f9bc6cd56a2f62fa4') in 0.031117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/survivorkit/Models/OBJ format/structure-metal-doorway.obj
+  artifactKey: Guid(6dd405bbcc26a2941b2e8df9c484c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/structure-metal-doorway.obj using Guid(6dd405bbcc26a2941b2e8df9c484c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6ff0757b7e1ab1d00c6c188483ff97') in 0.050890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/iron-fence-damaged.obj
+  artifactKey: Guid(9074d3f0f7d28f1479c5d5e189e26b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/iron-fence-damaged.obj using Guid(9074d3f0f7d28f1479c5d5e189e26b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9808de238c7262ee0ec23e2f1fcf6f') in 0.036746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/platformer kit/models/fence-broken.obj
+  artifactKey: Guid(80afaa815366b3344886bf1843300653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/fence-broken.obj using Guid(80afaa815366b3344886bf1843300653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc108447a563f68b4bcb1d14ea41fee2') in 0.035757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/crypt.obj
+  artifactKey: Guid(dac743c7961afee4f912560de22b61a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/crypt.obj using Guid(dac743c7961afee4f912560de22b61a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e41759f3777825a08df3120bdc6e3f') in 0.036195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/aid-cane-low-vision.fbx
+  artifactKey: Guid(a1ba0eed69f25f342a573eb23db5b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/aid-cane-low-vision.fbx using Guid(a1ba0eed69f25f342a573eb23db5b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaacd91014ec674165177285042ec413') in 0.027064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/platformer kit/models/tree-pine-small.obj
+  artifactKey: Guid(666c59b1546218d4aaed4c5634bb3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/tree-pine-small.obj using Guid(666c59b1546218d4aaed4c5634bb3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a88eb886483e091ce7a6c5bda450800') in 0.031877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/crypt-small.obj
+  artifactKey: Guid(8510ad994f7042a44bc9ee94c29bc05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/crypt-small.obj using Guid(8510ad994f7042a44bc9ee94c29bc05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79634b4fd448d91b21a7df1884b3974') in 0.037068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/platformer kit/models/lever.obj
+  artifactKey: Guid(3173191b397dbb34c876e405b433c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/lever.obj using Guid(3173191b397dbb34c876e405b433c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e43b2c3235112a2bf014db95c5a94e') in 0.054992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/character-vampire.obj
+  artifactKey: Guid(c8108648cebc4214f8efccbc2dce48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/character-vampire.obj using Guid(c8108648cebc4214f8efccbc2dce48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bf82c89748daf943cff614d3b4ef57') in 0.094283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/stone-wall.obj
+  artifactKey: Guid(d4839f5b2bd6bb349b7207c3bbb206d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/stone-wall.obj using Guid(d4839f5b2bd6bb349b7207c3bbb206d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253faa304244eecb3d93d71d5c7a2937') in 0.030516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/chest.obj
+  artifactKey: Guid(c642119c1badecf45b7bec1f5195ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/chest.obj using Guid(c642119c1badecf45b7bec1f5195ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c9b061702e09f51e6feb67d946a6b5') in 0.038697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/grave.obj
+  artifactKey: Guid(151d144bf9387234cbca5eba900c2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/grave.obj using Guid(151d144bf9387234cbca5eba900c2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c522eb3e547a75463e334153b56ea16') in 0.037156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/wheelchair-deluxe.obj
+  artifactKey: Guid(d11ee3b4ed5030e4a93a76d60918a8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/wheelchair-deluxe.obj using Guid(d11ee3b4ed5030e4a93a76d60918a8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb8e63ecf6907be378ba8f2df99b993') in 0.036542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/bench.obj
+  artifactKey: Guid(9c4071e1dadbfc84992bf969c8189f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/bench.obj using Guid(9c4071e1dadbfc84992bf969c8189f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc38b1b16fc012baf31ffd9968559fd6') in 0.033259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/brick-wall-curve-small.obj
+  artifactKey: Guid(6bcfbc0a980ed2a4dab1d705fbe74995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/brick-wall-curve-small.obj using Guid(6bcfbc0a980ed2a4dab1d705fbe74995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af66650371b22cfc8fc25d1d2abcd6') in 0.037181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/aid-cane-blind.fbx
+  artifactKey: Guid(36629aee232e5d64e80f49c3ad7d39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/aid-cane-blind.fbx using Guid(36629aee232e5d64e80f49c3ad7d39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8793c30d278c18d0d590ec8ae98ae360') in 0.031675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/platformer kit/models/block-snow-low-hexagon.obj
+  artifactKey: Guid(4e1c2f51a9a2dce46bdd26b53d8d5d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-low-hexagon.obj using Guid(4e1c2f51a9a2dce46bdd26b53d8d5d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c906ff7b4c12df727a487c6cd5bf02') in 0.037256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/survivorkit/Models/OBJ format/campfire-pit.obj
+  artifactKey: Guid(ab908cb2d4e83f5489daf6560e79952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/campfire-pit.obj using Guid(ab908cb2d4e83f5489daf6560e79952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a88bd53eaa15d302e6479776af115b3') in 0.046077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/iron-fence-border-curve.obj
+  artifactKey: Guid(52d534a0cffc9de45a2d9c0f366f0d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/iron-fence-border-curve.obj using Guid(52d534a0cffc9de45a2d9c0f366f0d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ea1601778ce689b51c2004eb582313') in 0.037292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/floor-detail.obj
+  artifactKey: Guid(ae249b9a3a0c5a54dae3bd45fd2571d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/floor-detail.obj using Guid(ae249b9a3a0c5a54dae3bd45fd2571d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070dd65c70ccc8bba39e61305b3ede0f') in 0.035378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/platformer kit/models/platform.obj
+  artifactKey: Guid(d0fc4bd803c791346b2d4f468eead48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/platform.obj using Guid(d0fc4bd803c791346b2d4f468eead48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa391b36f22240fda24fc51d952e522') in 0.045230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/brick-wall.obj
+  artifactKey: Guid(aaa0921825a6b9f41869296371bba51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/brick-wall.obj using Guid(aaa0921825a6b9f41869296371bba51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab55a663154707ebf96200d19fb3bec') in 0.031718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/platformer kit/models/ladder-broken.obj
+  artifactKey: Guid(b3558cfbf76a4ed479a1fa3d4613536c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/ladder-broken.obj using Guid(b3558cfbf76a4ed479a1fa3d4613536c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230c0a3ae49c7c8cc0d4c5f6ec4645ee') in 0.035788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/survivorkit/Models/OBJ format/workbench-grind.obj
+  artifactKey: Guid(26e785aabf598724cbd728e8b9f1f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/workbench-grind.obj using Guid(26e785aabf598724cbd728e8b9f1f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239bd5259c7d4af8c22098382a2dda7a') in 0.049522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/gravestone-wide.obj
+  artifactKey: Guid(5a36f67bbb13da8439122a36d25058f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/gravestone-wide.obj using Guid(5a36f67bbb13da8439122a36d25058f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f899aed2fd827ca51fa604d4aecd3f') in 0.032842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/platformer kit/models/fence-low-corner-curved.obj
+  artifactKey: Guid(99e393e83013e8942a427e6e177798dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/fence-low-corner-curved.obj using Guid(99e393e83013e8942a427e6e177798dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2125618618befdb0b16ec86c2724022') in 0.032755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/aid-mask.obj
+  artifactKey: Guid(e14640fb4b2ec6342a28374208d4d6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/aid-mask.obj using Guid(e14640fb4b2ec6342a28374208d4d6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a1bf8b62023eaa0057bef22aee3df5') in 0.035801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/survivorkit/Models/OBJ format/barrel-open.obj
+  artifactKey: Guid(42ebc1b2403e0f449a14ff7854848aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/barrel-open.obj using Guid(42ebc1b2403e0f449a14ff7854848aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d0180ff50f5d0a013f50d0c2cb3236') in 0.040838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/platformer kit/models/spike-block.obj
+  artifactKey: Guid(7acdd1803c134bf4d82b171bdbcdaec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/spike-block.obj using Guid(7acdd1803c134bf4d82b171bdbcdaec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a352870b85e5ae0686ba985e7bf2110') in 0.033115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/platformer kit/models/block-snow-corner.obj
+  artifactKey: Guid(2cc20cbcae913c24da636dcf3ca75458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-corner.obj using Guid(2cc20cbcae913c24da636dcf3ca75458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86850b38f0e52a181abf5e64e3ff7f81') in 0.039455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/survivorkit/Models/OBJ format/campfire-fishing-stand.obj
+  artifactKey: Guid(cb5db9f2ed79bad4e86996bbd07a13bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/campfire-fishing-stand.obj using Guid(cb5db9f2ed79bad4e86996bbd07a13bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf42a7bb04a6df311f2e7f0dbc8e30f3') in 0.036531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/platformer kit/models/ladder.obj
+  artifactKey: Guid(5fa6decb9aeedf441ba535a9642283c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/ladder.obj using Guid(5fa6decb9aeedf441ba535a9642283c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6d1880fd432bcba48a23d7cb95c7f8') in 0.064363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-large-tall.obj
+  artifactKey: Guid(16f46c5a2fe66904c8f55600a51827df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-large-tall.obj using Guid(16f46c5a2fe66904c8f55600a51827df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc414e18a5be52dde57140b17205f5d2') in 0.037912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/rocks.obj
+  artifactKey: Guid(1c80b9a8a0fc9d44ebcc12283cd54786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/rocks.obj using Guid(1c80b9a8a0fc9d44ebcc12283cd54786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1825d359aafe3adf04c97dae674e05de') in 0.029373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/floor.obj
+  artifactKey: Guid(ef2410079b5b31f44b6395a7fa8a3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/floor.obj using Guid(ef2410079b5b31f44b6395a7fa8a3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b662f7eaeced7a8b2943e48131b271') in 0.031088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/platformer kit/models/block-snow-large-slope.obj
+  artifactKey: Guid(c639ecbdb20956f41ac9bb3017d0a8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-large-slope.obj using Guid(c639ecbdb20956f41ac9bb3017d0a8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcb699fdfad26fd2f9f6bcc18644cfc') in 0.030591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/wall-opening.obj
+  artifactKey: Guid(e0894d23d5566054aaad28c0d80a5213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/wall-opening.obj using Guid(e0894d23d5566054aaad28c0d80a5213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5523fc1debbf3f7ef15313641cbba15d') in 0.029401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/fence.obj
+  artifactKey: Guid(08f2b78a777418849b243a99df7eae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/fence.obj using Guid(08f2b78a777418849b243a99df7eae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f4c6c218f8b55946d314c1c545976d') in 0.039044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/platformer kit/models/ladder-long.obj
+  artifactKey: Guid(78eb79262ffb6424fbbea2ec1fa2260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/ladder-long.obj using Guid(78eb79262ffb6424fbbea2ec1fa2260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a92456df67fc63fd6a10d2b983acf3d') in 0.032186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/platformer kit/models/block-snow.obj
+  artifactKey: Guid(357e32bd71501cb4f93615085be7e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow.obj using Guid(357e32bd71501cb4f93615085be7e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7d094e3ae2ee4dbef107fa73774b09') in 0.032942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/iron-fence-border.obj
+  artifactKey: Guid(1f2a187293720744ea30a4d401d02d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/iron-fence-border.obj using Guid(1f2a187293720744ea30a4d401d02d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd021cb92984e2e40f7561a7203b82389') in 0.037488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/platformer kit/models/tree-pine-snow-small.obj
+  artifactKey: Guid(4c649c00801755d4eb0c77b251e0c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/tree-pine-snow-small.obj using Guid(4c649c00801755d4eb0c77b251e0c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d101b1d8eb510588ef79672e2343d43') in 0.035980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SimpleSky/Materials/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/Materials/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141950460f295ecdc1241a28a8096121') in 0.051342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/stones.fbx
+  artifactKey: Guid(9ee36b71abd0eca438bf09ac8752dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/stones.fbx using Guid(9ee36b71abd0eca438bf09ac8752dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b789466367750c44bfdc9f4a369484') in 0.026057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/wheelchair-power.obj
+  artifactKey: Guid(21d239ab6e93bd647844a5d75348bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/wheelchair-power.obj using Guid(21d239ab6e93bd647844a5d75348bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4362c15fcb0464d5053ea60b399f286b') in 0.034281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/platformer kit/models/block-snow-corner-overhang.obj
+  artifactKey: Guid(581d3bdee23a00b44b4699c371e03312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-corner-overhang.obj using Guid(581d3bdee23a00b44b4699c371e03312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af69cf0a21db98b16dad6005ddad58a9') in 0.034834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/survivorkit/Models/OBJ format/floor.obj
+  artifactKey: Guid(893b6bf7efe0ddb4cb392961661a3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/floor.obj using Guid(893b6bf7efe0ddb4cb392961661a3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b1c2e340c6519943494faf2d0327a') in 0.034166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/character-female-a.obj
+  artifactKey: Guid(c66e39b1dc7ca914a864a87a912d6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/character-female-a.obj using Guid(c66e39b1dc7ca914a864a87a912d6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4794894e038103865c25f6ada92ce3') in 0.042097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/character-female-b.fbx
+  artifactKey: Guid(d829957a478bbb04e9513e3f645ca30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/character-female-b.fbx using Guid(d829957a478bbb04e9513e3f645ca30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b5dd26d16041ad2ecccbe53150f165') in 0.057153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/trap.obj
+  artifactKey: Guid(a74b54f9c82f55f48a60b39a49f5e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/trap.obj using Guid(a74b54f9c82f55f48a60b39a49f5e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd79d9d760703a0843304280d015bdf0') in 0.041900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/chest.fbx
+  artifactKey: Guid(1ec09f2d5b2e226429f15bf236ffc663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/chest.fbx using Guid(1ec09f2d5b2e226429f15bf236ffc663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085dcc2c4597b620abe671b6cd9452c5') in 0.045292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-low-long.obj
+  artifactKey: Guid(08800f9b87f6f3f409b4dcb33a8a14c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-low-long.obj using Guid(08800f9b87f6f3f409b4dcb33a8a14c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fad78272bf306a34c7403fcbaaccced') in 0.030147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tree-autumn-trunk.obj
+  artifactKey: Guid(61297d1040bdcd34eab55152dcb03aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tree-autumn-trunk.obj using Guid(61297d1040bdcd34eab55152dcb03aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780189c8e54996abecdf04474275b5e9') in 0.034763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0b610203331c98dc6a6f69cf12778d') in 0.033570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/wheelchair-power.fbx
+  artifactKey: Guid(3c342029bf7d1dc49929739debbe56fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/wheelchair-power.fbx using Guid(3c342029bf7d1dc49929739debbe56fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebb0179a2d883dde9881b57ac383c4c') in 0.029560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/platformer kit/models/tree.obj
+  artifactKey: Guid(85a13fb74ac86614fbb378025d36ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/tree.obj using Guid(85a13fb74ac86614fbb378025d36ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f20531a8142115339fea7e3ac1bc22') in 0.043733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/wood-structure.fbx
+  artifactKey: Guid(303be236a8062c14cb3f6b508c4d135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/wood-structure.fbx using Guid(303be236a8062c14cb3f6b508c4d135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb01b576849277fbf09d0ed7efeb73df') in 0.032162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/platformer kit/models/flag.obj
+  artifactKey: Guid(1484a0df1171fb04b86c51e1517c6b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/flag.obj using Guid(1484a0df1171fb04b86c51e1517c6b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52438c85ad1f33ed3bdba184183f3adb') in 0.032080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/platformer kit/models/tree-pine-snow.obj
+  artifactKey: Guid(c1ae69bcd8c1fb942be5a010ccef2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/tree-pine-snow.obj using Guid(c1ae69bcd8c1fb942be5a010ccef2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257c934a1e180a43c4c82e64381ab62e') in 0.032514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/platformer kit/models/platform-fortified.obj
+  artifactKey: Guid(da96bea4b868a274d80ccf0026ec3269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/platform-fortified.obj using Guid(da96bea4b868a274d80ccf0026ec3269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd389ddbbb6d63ae90b6786d28e1fdb') in 0.032463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/platformer kit/models/block-snow-corner-low.obj
+  artifactKey: Guid(19ad862db0998f34fad73a5cc9e2b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-corner-low.obj using Guid(19ad862db0998f34fad73a5cc9e2b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783735944e36c356601de39c20c4512c') in 0.033848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/survivorkit/Models/OBJ format/workbench-anvil.obj
+  artifactKey: Guid(bef2791602ea98c4fbadf15cafc53fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/workbench-anvil.obj using Guid(bef2791602ea98c4fbadf15cafc53fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00887588fc716f1715d6808e82c9be2') in 0.049051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/survivorkit/Models/OBJ format/box-large-open.obj
+  artifactKey: Guid(7b11bd88475308745b8fad455729ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/box-large-open.obj using Guid(7b11bd88475308745b8fad455729ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a8e06702426c1dc36ff7242ffb1a0f') in 0.037737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/platformer kit/models/tree-pine.obj
+  artifactKey: Guid(03707d3fb263bca4c8a3de9339eb1f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/tree-pine.obj using Guid(03707d3fb263bca4c8a3de9339eb1f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e676e935fcd7244c7a7aaae7688d2b') in 0.037241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/survivorkit/Models/OBJ format/box-large.obj
+  artifactKey: Guid(6fa2501dbc826bf42b3ab262869d8042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/box-large.obj using Guid(6fa2501dbc826bf42b3ab262869d8042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34eca9519cda58a273b16c494cd2e97') in 0.032550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/survivorkit/Models/OBJ format/metal-panel-screws.obj
+  artifactKey: Guid(1f3e91a7833855c4eabce168f97bc913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/metal-panel-screws.obj using Guid(1f3e91a7833855c4eabce168f97bc913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9ee4272bef07b2887eba937f27b45f') in 0.039399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-large-slope-steep.obj
+  artifactKey: Guid(e59aa5fe8b285694bb1c974a3378778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-large-slope-steep.obj using Guid(e59aa5fe8b285694bb1c974a3378778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78108e7d4f9764792ba5708bf776480') in 0.033762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/platformer kit/models/block-snow-low-large.obj
+  artifactKey: Guid(c7c86eea873469c46a254b94187eab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-low-large.obj using Guid(c7c86eea873469c46a254b94187eab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2570dfcb3e34420c914e237aa69796f5') in 0.035534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/platformer kit/models/crate.obj
+  artifactKey: Guid(eca6ee575713c25498af2db047559257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/crate.obj using Guid(eca6ee575713c25498af2db047559257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5230f84b29ea6b3ef5540ecd4a6e6955') in 0.045567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/crypt-large.obj
+  artifactKey: Guid(81c618e3e5653024e83c9b9909bb2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/crypt-large.obj using Guid(81c618e3e5653024e83c9b9909bb2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866bdb260277d2f6dcef2435527e40dc') in 0.036612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/shovel.obj
+  artifactKey: Guid(1ff780dd6d2beb64b94cf558e2cbd4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/shovel.obj using Guid(1ff780dd6d2beb64b94cf558e2cbd4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fdae501d6375883b456fedbe66814c') in 0.037014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/crypt-small-entrance.obj
+  artifactKey: Guid(7e3e11ea416c2684e9d74fd629263f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/crypt-small-entrance.obj using Guid(7e3e11ea416c2684e9d74fd629263f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c0444f76da9dfa3e0b2747c571b30c') in 0.031621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tree-log.obj
+  artifactKey: Guid(4f9d1915cdab28f438e73e947d6c61c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tree-log.obj using Guid(4f9d1915cdab28f438e73e947d6c61c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcb5e0e20ba8b508aff91bc5d2d82b5') in 0.033046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/survivorkit/Models/OBJ format/metal-panel-screws-half.obj
+  artifactKey: Guid(89a6ef6767bcfb746bd219b7f24b0d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/metal-panel-screws-half.obj using Guid(89a6ef6767bcfb746bd219b7f24b0d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65bc694050e0209c101d69ea6331d69') in 0.033277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/platformer kit/models/block-snow-large-slope-steep-narrow.obj
+  artifactKey: Guid(2012c9cb6cea22343ab67f2c3fac479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-large-slope-steep-narrow.obj using Guid(2012c9cb6cea22343ab67f2c3fac479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e68b0b669613beee04fac2fc89fc698') in 0.031492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/urn.obj
+  artifactKey: Guid(b12969886dd107c48b09f83ae76905da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/urn.obj using Guid(b12969886dd107c48b09f83ae76905da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046b8082953b111a1e8e5f60f1efccd2') in 0.048434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/platformer kit/models/block-snow-long.obj
+  artifactKey: Guid(ca3182d4064b5454ab3d9ef608f5fd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-long.obj using Guid(ca3182d4064b5454ab3d9ef608f5fd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6547a6d0ee8eab5b44691b9dde1342') in 0.031024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/character-female-a.fbx
+  artifactKey: Guid(7ea204a0f5752e448b16bab0f55b7f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/character-female-a.fbx using Guid(7ea204a0f5752e448b16bab0f55b7f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1859a28934beb3bf5f9bd7bbb1fe9d83') in 0.051160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/barrel.fbx
+  artifactKey: Guid(3f9426151ad47f14fb2e10e6c8ad7d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/barrel.fbx using Guid(3f9426151ad47f14fb2e10e6c8ad7d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bb7653a2b62b7cf48c778109737569') in 0.028046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/survivorkit/Models/OBJ format/rock-a.obj
+  artifactKey: Guid(7bf3c81be3265e849a01afcc412151ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/rock-a.obj using Guid(7bf3c81be3265e849a01afcc412151ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0449c359e44bbc7a17a294417bdec3') in 0.034780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/platformer kit/models/bomb.obj
+  artifactKey: Guid(02d4ac7f294eeea48a33fc46f2b47ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/bomb.obj using Guid(02d4ac7f294eeea48a33fc46f2b47ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0191b3c5d1f76ea8ef3eb36d2bf628') in 0.041924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/candle-multiple.obj
+  artifactKey: Guid(cd4eec0805133b04a9495f07c3e02c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/candle-multiple.obj using Guid(cd4eec0805133b04a9495f07c3e02c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1daee8d93ee8f27aedcda79b32d465a') in 0.036603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/character-male-d.fbx
+  artifactKey: Guid(94ad3a37374e2aa4b899bcba57cfa8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/character-male-d.fbx using Guid(94ad3a37374e2aa4b899bcba57cfa8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2398d943125221dbf2bd4d998a70c460') in 0.063568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/survivorkit/Models/OBJ format/structure-metal-roof.obj
+  artifactKey: Guid(af152aeb67c5b0342a5aebae80221cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/structure-metal-roof.obj using Guid(af152aeb67c5b0342a5aebae80221cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a71c3df88d92b4c65a10ffce01555d') in 0.043752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/platformer kit/models/button-round.obj
+  artifactKey: Guid(3bb04c1021a95a3489c7c938365b764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/button-round.obj using Guid(3bb04c1021a95a3489c7c938365b764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40167de75d46813dae47857a96514b1') in 0.053123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/survivorkit/Models/OBJ format/rock-b.obj
+  artifactKey: Guid(45fc873c2a30b3c44935efc5deff6ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/rock-b.obj using Guid(45fc873c2a30b3c44935efc5deff6ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d251741f8a37b3acf817d4e9cc944bb') in 0.037395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/platformer kit/models/trap-spikes.obj
+  artifactKey: Guid(632adcd99f264554899e0f4fa1fad128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/trap-spikes.obj using Guid(632adcd99f264554899e0f4fa1fad128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae8abea356e10bbd56584b2fed0b50') in 0.051729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/trap.fbx
+  artifactKey: Guid(fb5f226ff0e2b114aacaae8620a239d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/trap.fbx using Guid(fb5f226ff0e2b114aacaae8620a239d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ebfcb9d335a4867ea6a45fbabdf87') in 0.045041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/platformer kit/models/jewel.obj
+  artifactKey: Guid(d0fa136911f09f74eb45c85c15ba9824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/jewel.obj using Guid(d0fa136911f09f74eb45c85c15ba9824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc519389764f5b5aed031a6ecf3cbb4') in 0.034540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tree-autumn.obj
+  artifactKey: Guid(167ebe0ab3cf3894fbaa7613f62ea051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tree-autumn.obj using Guid(167ebe0ab3cf3894fbaa7613f62ea051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45b6f6ba2abf310fbd6bf8ba2e84331') in 0.072172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/platformer kit/models/fence-low-corner.obj
+  artifactKey: Guid(c8bdb21de093b104281bff3dfa2e6dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/fence-low-corner.obj using Guid(c8bdb21de093b104281bff3dfa2e6dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b25fefe8f5539b84f9e8f1112dcb71e') in 0.044075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/survivorkit/Models/OBJ format/structure.obj
+  artifactKey: Guid(953006d1225564443b596a2cb5508f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/structure.obj using Guid(953006d1225564443b596a2cb5508f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a239c8017a94e38de42b8095a2b971ac') in 0.044992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/platformer kit/models/block-snow-large.obj
+  artifactKey: Guid(d09e45de916e8864ebb5e4dac6a21349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-large.obj using Guid(d09e45de916e8864ebb5e4dac6a21349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216b50a28009cd90e3f1962756377380') in 0.040012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/wood-support.obj
+  artifactKey: Guid(504718224cd450a4194c1fd0317d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/wood-support.obj using Guid(504718224cd450a4194c1fd0317d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5901734b9f565f00b70f68e63b3f522e') in 0.048178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tree.obj
+  artifactKey: Guid(47b11cce95b4f1940a0a34adbf2f074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tree.obj using Guid(47b11cce95b4f1940a0a34adbf2f074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd93820ed1198ac34d60a32515104697') in 0.034144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/platformer kit/models/block-snow-corner-overhang-low.obj
+  artifactKey: Guid(8bd61544f20a4024c9c3fe31142f538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-corner-overhang-low.obj using Guid(8bd61544f20a4024c9c3fe31142f538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847895059926f2f3cc18ba6688afde95') in 0.041581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/platformer kit/models/block-snow-low.obj
+  artifactKey: Guid(170a4b7935de0a64ea8445a724a3e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-low.obj using Guid(170a4b7935de0a64ea8445a724a3e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13d918349fe623de3850e0e1666e04b') in 0.040664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/stairs.obj
+  artifactKey: Guid(384489014321b8d4a8dd9f10430a9521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/stairs.obj using Guid(384489014321b8d4a8dd9f10430a9521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b110ac3ab362ee6fb47bd0e93ee9b5') in 0.038085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/survivorkit/Models/OBJ format/structure-metal-floor.obj
+  artifactKey: Guid(e6ad3ee36d6de054d97c01310cde91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/structure-metal-floor.obj using Guid(e6ad3ee36d6de054d97c01310cde91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cbaec3b37605656bb43554bfe32479') in 0.036225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/wall-narrow.obj
+  artifactKey: Guid(eea56f4e274684e4eb2299123fe0784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/wall-narrow.obj using Guid(eea56f4e274684e4eb2299123fe0784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af71051a8c649a63c260f3baabe7e92') in 0.041726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/fire-basket.obj
+  artifactKey: Guid(24595c03318e2e145b76f40e7a6a7dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/fire-basket.obj using Guid(24595c03318e2e145b76f40e7a6a7dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56317475c2cb79405ce62f2187e34635') in 0.038204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tool-hoe-upgraded.obj
+  artifactKey: Guid(d069e1812999e6f41abfa9d9f3a69236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tool-hoe-upgraded.obj using Guid(d069e1812999e6f41abfa9d9f3a69236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbbfbe9afc8232f5fad0328e18b2065') in 0.035933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/platformer kit/models/coin-bronze.obj
+  artifactKey: Guid(67145de339e956549905c4e3c4ae24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/coin-bronze.obj using Guid(67145de339e956549905c4e3c4ae24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1936cd11326815e8968fe346692a4367') in 0.037687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/aid-cane.obj
+  artifactKey: Guid(7e35d70187472d14fa57e90817dd94a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/aid-cane.obj using Guid(7e35d70187472d14fa57e90817dd94a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c19154317b42c6cc0fae97e0a2d347') in 0.040865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/survivorkit/Models/OBJ format/resource-stone-large.obj
+  artifactKey: Guid(b4442518f025a864eabb0e2370f95914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/resource-stone-large.obj using Guid(b4442518f025a864eabb0e2370f95914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d126f02f28b6926802850f1c77912b') in 0.043760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/character-female-c.fbx
+  artifactKey: Guid(4b036d1f38655eb42a2ca7e465406a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/character-female-c.fbx using Guid(4b036d1f38655eb42a2ca7e465406a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd432474c650b8a2367e2fe62cd7f31') in 0.062016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/aid-defibrillator-green.fbx
+  artifactKey: Guid(860fda5544ecc814ba04c4b9e583e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/aid-defibrillator-green.fbx using Guid(860fda5544ecc814ba04c4b9e583e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab9abdeb72a7bb8c362149df2611f7') in 0.048761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/survivorkit/Models/OBJ format/fish-large.obj
+  artifactKey: Guid(c17018e95311fac42bc9fc33f653a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/fish-large.obj using Guid(c17018e95311fac42bc9fc33f653a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b42daff951d47b1a9de4eefb808be4') in 0.033154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/aid-crutch.obj
+  artifactKey: Guid(75078b0cda5f73947950eba18d6a394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/aid-crutch.obj using Guid(75078b0cda5f73947950eba18d6a394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c985b5a52b54eee0ad10ca181e9be79a') in 0.050150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tent-canvas.obj
+  artifactKey: Guid(bc28a51cc8340c34db04e33d08b4dce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tent-canvas.obj using Guid(bc28a51cc8340c34db04e33d08b4dce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3144abc57f72b049c5288ba61bc0fe95') in 0.032790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/aid-defibrillator-red.obj
+  artifactKey: Guid(580e687839046924a900fab185b59b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/aid-defibrillator-red.obj using Guid(580e687839046924a900fab185b59b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fc6c862feb550256296d54f9b65b51') in 0.049817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format 1/banner.obj
+  artifactKey: Guid(2fc3a6aa3e655f34f8354526862c2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format 1/banner.obj using Guid(2fc3a6aa3e655f34f8354526862c2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7219ef7e483ef4493686f7b5056c3436') in 0.034260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/survivorkit/Models/OBJ format/metal-panel.obj
+  artifactKey: Guid(b5ca9337ab829314db1d440dcf760fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/metal-panel.obj using Guid(b5ca9337ab829314db1d440dcf760fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f76056e5fa98923ec459ef09c16cd6c') in 0.036046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/wall-opening.fbx
+  artifactKey: Guid(cc34726efa95c094cbcbe664d4528630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/wall-opening.fbx using Guid(cc34726efa95c094cbcbe664d4528630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bb59971ae01ba231a770b29f9e50cf') in 0.034020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/character-male-c.fbx
+  artifactKey: Guid(d6a9256df1e3ed443b83c71d223c6e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/character-male-c.fbx using Guid(d6a9256df1e3ed443b83c71d223c6e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181d4f997ec20eb2ccdcdef6bd9b212e') in 0.062509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/survivorkit/Models/OBJ format/bedroll.obj
+  artifactKey: Guid(1d86a445ff72cfb408737bc520aba4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/bedroll.obj using Guid(1d86a445ff72cfb408737bc520aba4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d0294796a19147d234d9d2766a025c') in 0.052745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tree-autumn-tall.obj
+  artifactKey: Guid(83d52a5ce4434ca43bd897859f224c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tree-autumn-tall.obj using Guid(83d52a5ce4434ca43bd897859f224c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c2840970f0f4449a902171faff716f') in 0.036152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/lightpost-double.obj
+  artifactKey: Guid(d9651653c874af14193346bf9abaa050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/lightpost-double.obj using Guid(d9651653c874af14193346bf9abaa050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bba1aa8b91300c1d647d9e9fb1ab51') in 0.040376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-low-hexagon.obj
+  artifactKey: Guid(6c5890d526aacb44e890d7c72de68212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-low-hexagon.obj using Guid(6c5890d526aacb44e890d7c72de68212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405debe4e643d139cb59a840adc13342') in 0.036405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/platformer kit/models/fence-low-straight.obj
+  artifactKey: Guid(0e947a583c0bbac4d9cc40c99d26e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/fence-low-straight.obj using Guid(0e947a583c0bbac4d9cc40c99d26e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf10358a4a409e39b9129ea610fda499') in 0.029657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/rocks-tall.obj
+  artifactKey: Guid(c64498da60d29a541bfd59eeba2135e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/rocks-tall.obj using Guid(c64498da60d29a541bfd59eeba2135e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3049fbf82af7d8147c747ad031e6ece0') in 0.038111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/altar-stone.obj
+  artifactKey: Guid(0898966c57b8f3c4d8d400d791dbf760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/altar-stone.obj using Guid(0898966c57b8f3c4d8d400d791dbf760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2833dd243169f51726bc1cc5a40ae8') in 0.041823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tent-canvas-half.obj
+  artifactKey: Guid(3f68c4e1b319a6c40ae7d73ffbf7bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tent-canvas-half.obj using Guid(3f68c4e1b319a6c40ae7d73ffbf7bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dea5a7b33f4a42a5472ade2737072b') in 0.039652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/gravestone-flat.obj
+  artifactKey: Guid(653d815b0d83fb6488b6caf93a45c24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/gravestone-flat.obj using Guid(653d815b0d83fb6488b6caf93a45c24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd5f15ffe5392e33667d76e909eb9ed') in 0.034644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/grave-border.obj
+  artifactKey: Guid(1b471a5300726974baeb11df02e58403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/grave-border.obj using Guid(1b471a5300726974baeb11df02e58403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1023a9bd547d65e4665310c5106d11bd') in 0.034960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/character-male-d.obj
+  artifactKey: Guid(adca178733c28a04287e7be162c5fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/character-male-d.obj using Guid(adca178733c28a04287e7be162c5fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dc4288bc8c863bddb06087a7e05c79') in 0.049664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/brick-wall-curve.obj
+  artifactKey: Guid(ac2d8f6b0f3e9274eb33314707ae9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/brick-wall-curve.obj using Guid(ac2d8f6b0f3e9274eb33314707ae9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be89fc7152b6a1c1f52183a8695e11fa') in 0.037210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/character-female-b.obj
+  artifactKey: Guid(98c70ae84916ffa42b01c209938f8815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/character-female-b.obj using Guid(98c70ae84916ffa42b01c209938f8815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53964bd9867ac5a3d5b850b0f53a4f3') in 0.047322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-large.obj
+  artifactKey: Guid(224ccd54ded633449b7ee80113861a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-large.obj using Guid(224ccd54ded633449b7ee80113861a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd973f011a5723b5457e109c42273c6bb') in 0.032100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tool-shovel.obj
+  artifactKey: Guid(fb9e293846370ed45a784cacd01926ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tool-shovel.obj using Guid(fb9e293846370ed45a784cacd01926ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b93474792ce96b53b5350e023125f1') in 0.035290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/platformer kit/models/fence-straight.obj
+  artifactKey: Guid(c6b822f3c0a967e4384dd209f9012a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/fence-straight.obj using Guid(c6b822f3c0a967e4384dd209f9012a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81beb818b1dba844e362d170b2b1941a') in 0.038584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/platformer kit/models/door-rotate-large.obj
+  artifactKey: Guid(78580e8d3952fef408d24e93e19ad632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/door-rotate-large.obj using Guid(78580e8d3952fef408d24e93e19ad632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd938ff9b8b6cb85fed9a81c0f6b591fa') in 0.044492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-low.obj
+  artifactKey: Guid(80f3a2fcee605124e9a50809b95ee2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-low.obj using Guid(80f3a2fcee605124e9a50809b95ee2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244ad0ee37f41204b7245bc98fd82783') in 0.036395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/column.fbx
+  artifactKey: Guid(c1480304bfec1f7419f61ae1bd33d638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/column.fbx using Guid(c1480304bfec1f7419f61ae1bd33d638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1addd0a8ce40e0ac0fe567e32d2c3bb0') in 0.027790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/survivorkit/Models/OBJ format/rock-sand-b.obj
+  artifactKey: Guid(901b36391f948584ba0e483b88064190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/rock-sand-b.obj using Guid(901b36391f948584ba0e483b88064190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bfbc2e5890034a1b68fe7ec78cd72e') in 0.039129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/Texture.mat
+  artifactKey: Guid(e2a7fc2a9abf5054195a176653a341be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/Texture.mat using Guid(e2a7fc2a9abf5054195a176653a341be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d98d5bd853a0d7d25dbc879beee55de') in 0.026351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/detail-plate.obj
+  artifactKey: Guid(a78677f5c2711d64b8e3a3591be7de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/detail-plate.obj using Guid(a78677f5c2711d64b8e3a3591be7de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba07b4bb56615663fe057683499208') in 0.038793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/survivorkit/Models/OBJ format/rock-flat-grass.obj
+  artifactKey: Guid(5fe724e71b7c45a498423c078a815f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/rock-flat-grass.obj using Guid(5fe724e71b7c45a498423c078a815f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cdf6572a1dcfd1617b1caa84062cd4') in 0.038814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/lightpost-single.obj
+  artifactKey: Guid(c444b83638733334499f9b976c7afdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/lightpost-single.obj using Guid(c444b83638733334499f9b976c7afdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66e31493ffb9979fd369659467296f7') in 0.040472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/survivorkit/Models/OBJ format/signpost-single.obj
+  artifactKey: Guid(b3291abde90ed3a4ca4109c47787eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/signpost-single.obj using Guid(b3291abde90ed3a4ca4109c47787eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26df229721d5b78f3cef9e81037b320c') in 0.036344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/platformer kit/models/block-snow-overhang-narrow.obj
+  artifactKey: Guid(6b992bcbfadcaf74d8d64be7406cb037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/block-snow-overhang-narrow.obj using Guid(6b992bcbfadcaf74d8d64be7406cb037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83ab01a27835c2ee8840d13ecef9562') in 0.045878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/debris.obj
+  artifactKey: Guid(3cccb30d00737794890624730b214187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/debris.obj using Guid(3cccb30d00737794890624730b214187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed23bad7583953d716f6666bf4559bea') in 0.037053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/pillar-small.obj
+  artifactKey: Guid(4cacc90f072ca8547b4f90602e68ddd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/pillar-small.obj using Guid(4cacc90f072ca8547b4f90602e68ddd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c580388d8898818f8b1c9952e06aeb44') in 0.037569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/survivorkit/Models/OBJ format/rock-flat.obj
+  artifactKey: Guid(a328b56951b181a4fa556bc7b3057e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/rock-flat.obj using Guid(a328b56951b181a4fa556bc7b3057e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59767f6e9131641c1a774493aab536d') in 0.032186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/survivorkit/Models/OBJ format/tree-trunk.obj
+  artifactKey: Guid(2fed8e7e1828fe449bf897bd359af27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/tree-trunk.obj using Guid(2fed8e7e1828fe449bf897bd359af27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8a752db7dce1b474f76b91443b7a31') in 0.035854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/character-zombie.obj
+  artifactKey: Guid(c2124b2554487d94aa2aae3166b3a482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/character-zombie.obj using Guid(c2124b2554487d94aa2aae3166b3a482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74362da99eb7d4d30e1e28b16edd986') in 0.103648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/platformer kit/models/hedge-corner.obj
+  artifactKey: Guid(f0c8393925493ec4f804eff84ff78614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer kit/models/hedge-corner.obj using Guid(f0c8393925493ec4f804eff84ff78614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f5cb2649bd174d9238c651fc9495d0') in 0.038185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/survivorkit/Models/OBJ format/resource-wood.obj
+  artifactKey: Guid(d05c19442f3709d4b96d9d01c56d0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/resource-wood.obj using Guid(d05c19442f3709d4b96d9d01c56d0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0f9d6f37aead59667c6561ecb76918') in 0.039252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/crypt-small-entrance-alternative.obj
+  artifactKey: Guid(4a59fdda1fed3e04ebd9f9537e68922f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/crypt-small-entrance-alternative.obj using Guid(4a59fdda1fed3e04ebd9f9537e68922f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1248bf6c3522791c8fc9b8a4248ddf26') in 0.035400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format 1/rocks.fbx
+  artifactKey: Guid(3cdf13dfc51b0074bad2a167a0a30d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format 1/rocks.fbx using Guid(3cdf13dfc51b0074bad2a167a0a30d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0d299e91362fe4c32feaef2d52ff07') in 0.029062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animals_FREE/characters/Models/FBX format/character-female-d.fbx
+  artifactKey: Guid(6c9c09aa0644d5449871e54f67a76119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/FBX format/character-female-d.fbx using Guid(6c9c09aa0644d5449871e54f67a76119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba7c21acf936462aea90a76f6d39c90') in 0.077318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/survivorkit/Models/OBJ format/chest.obj
+  artifactKey: Guid(ce6a9d253ca92804e964af994ec01410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Models/OBJ format/chest.obj using Guid(ce6a9d253ca92804e964af994ec01410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd85a0855baa6a670557f1273081752e') in 0.051335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/graveyard kit/Models/OBJ format/candle.obj
+  artifactKey: Guid(d77d57ef9d2dee14e8f55f3428acd4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Models/OBJ format/candle.obj using Guid(d77d57ef9d2dee14e8f55f3428acd4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4d4c49d3ccf3786d4a86b4ffc69e4a') in 0.038967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animals_FREE/characters/Models/OBJ format/wheelchair.obj
+  artifactKey: Guid(69e3b45383ec21142a0d535a564ba38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals_FREE/characters/Models/OBJ format/wheelchair.obj using Guid(69e3b45383ec21142a0d535a564ba38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedd0d7472d7a4f954a60ce9fed33ded') in 0.030994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 716.633993 seconds.
+  path: Assets/graveyard kit/Previews/candle-multiple.png
+  artifactKey: Guid(6b02261941efe754d8edb9c342ab1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Previews/candle-multiple.png using Guid(6b02261941efe754d8edb9c342ab1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962c58c91db92a7f0b61a2ec57af7bfb') in 0.035386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx using Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1c024821feae283dc2453559e08c73') in 0.102877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx using Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2d8da7a47ea78f5bba6690ac3dfef3') in 0.116174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx using Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3303d90d9da9517005d06f809a4171') in 0.106468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(b5bfe52205c4a874991178073ad7989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx using Guid(b5bfe52205c4a874991178073ad7989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901eacd87cc3dacd2b10ccbfd54df580') in 0.077232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 1.134273 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveBWD_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(4897d9e1e93439744a78d1cebdef17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveBWD_Battle_InPlace_SwordAndShield.fbx using Guid(4897d9e1e93439744a78d1cebdef17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc62e30659317706b77954d71674f02f') in 0.068904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx using Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c05215eb7226123c53c93ad73c614ef') in 0.070185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 1519.723291 seconds.
+  path: Assets/hexagon kit
+  artifactKey: Guid(5d01e36ad5a648e45bf12f9a17b17964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit using Guid(5d01e36ad5a648e45bf12f9a17b17964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413aab472c952aedf5ad8301ab5d14d2') in 0.001046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 208.428604 seconds.
+  path: Assets/hexagon kit/Models
+  artifactKey: Guid(4e203715b740a7d4bba1a28dec955594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models using Guid(4e203715b740a7d4bba1a28dec955594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e7840b7598c295e055c64902133efa') in 0.000623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.424668 seconds.
+  path: Assets/hexagon kit/Models/FBX format/bridge.fbx
+  artifactKey: Guid(bcb56b30b0cf07a46ba238c41348c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/bridge.fbx using Guid(bcb56b30b0cf07a46ba238c41348c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7778f961c1fac042776a98ebc74d7e') in 0.049786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-dock.fbx
+  artifactKey: Guid(8c11d85098a10514599370160271fe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-dock.fbx using Guid(8c11d85098a10514599370160271fe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f54f1d17a96e5a895ceb18ec6eebe7') in 0.045441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-intersectionB.fbx
+  artifactKey: Guid(8d3e39655395325409e1ccbe142f642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-intersectionB.fbx using Guid(8d3e39655395325409e1ccbe142f642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c165dde88eba07986ea618fe62e516f') in 0.046680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-corner.fbx
+  artifactKey: Guid(1a5519b19a78c4749a5b9547685ed7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-corner.fbx using Guid(1a5519b19a78c4749a5b9547685ed7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536697f0a5ee57a531ff8ea970e8df7f') in 0.035278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-watermill.fbx
+  artifactKey: Guid(75dd59f2536b44846ae95cf6466bc890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-watermill.fbx using Guid(75dd59f2536b44846ae95cf6466bc890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ddd8f245da59f39296794025cab9f1') in 0.043908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/hexagon kit/Models/FBX format/dirt.fbx
+  artifactKey: Guid(dd33bd3bfb86aa44e8da30ff4a3182be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/dirt.fbx using Guid(dd33bd3bfb86aa44e8da30ff4a3182be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b037642af9254bff42ea2e7ee089a6') in 0.036662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-smelter.fbx
+  artifactKey: Guid(80cd9c53712bd5c4b83093a64a4b46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-smelter.fbx using Guid(80cd9c53712bd5c4b83093a64a4b46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1109db97d971cfb418ef0fa944458939') in 0.043117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-wall.fbx
+  artifactKey: Guid(220b3fc696026c541bc807590597cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-wall.fbx using Guid(220b3fc696026c541bc807590597cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c07e4278c22639e33f4162d19cd1fb3') in 0.038208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-market.fbx
+  artifactKey: Guid(8c70c439ce6c48e4191eacdd4e87b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-market.fbx using Guid(8c70c439ce6c48e4191eacdd4e87b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dee42008e2dda26e46f33218962cc1') in 0.041985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-mine.fbx
+  artifactKey: Guid(09c4252667025d64ba7f3b092d930d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-mine.fbx using Guid(09c4252667025d64ba7f3b092d930d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296e8b4b0db6fd2f062c08012fc2c50d') in 0.028459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-intersectionD.fbx
+  artifactKey: Guid(ba8a09b895b26af4787ed377c964999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-intersectionD.fbx using Guid(ba8a09b895b26af4787ed377c964999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4f3ecd7f927fc81240d6fd6a748bb3') in 0.032835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/hexagon kit/Models/FBX format/dirt-lumber.fbx
+  artifactKey: Guid(5ff1197d4b54472479c3e158bed32e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/dirt-lumber.fbx using Guid(5ff1197d4b54472479c3e158bed32e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b16dba7d49bb60a9d8a1d9c0dcf6f6a') in 0.028062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/hexagon kit/Models/FBX format/grass-forest.fbx
+  artifactKey: Guid(bfb3db3a4016eb54e966ea1860192499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/grass-forest.fbx using Guid(bfb3db3a4016eb54e966ea1860192499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a051f8a863286d8846c6e16326071a') in 0.028294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-castle.fbx
+  artifactKey: Guid(10b9029ee428f1347a88a3ffb8dab190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-castle.fbx using Guid(10b9029ee428f1347a88a3ffb8dab190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c99007948219d49b81cddf307b566e') in 0.036215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/hexagon kit/Models/FBX format/grass.fbx
+  artifactKey: Guid(071fa3488fd7b674990534018cb37bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/grass.fbx using Guid(071fa3488fd7b674990534018cb37bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5569744827b012cbef16e48d08e02f0') in 0.036416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/hexagon kit/Models/FBX format/building-house.fbx
+  artifactKey: Guid(234c0ef29e15ddc43839f7dd57eb6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/building-house.fbx using Guid(234c0ef29e15ddc43839f7dd57eb6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c455cadc47a7061b426b6062ef8350ee') in 0.031496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-crossing.fbx
+  artifactKey: Guid(bebf9972a3c01b34599c8ae2231b51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-crossing.fbx using Guid(bebf9972a3c01b34599c8ae2231b51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c154909d3efdcf4c3cf68743b3c645d') in 0.030127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.060453 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-intersectionF.fbx
+  artifactKey: Guid(cb66d91adf3340f4caf7f8718953d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-intersectionF.fbx using Guid(cb66d91adf3340f4caf7f8718953d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f35030ac17985bf610533f9a8e767a5') in 0.031165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-start.fbx
+  artifactKey: Guid(178879e8e4477924ebfca8c14bb2f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-start.fbx using Guid(178879e8e4477924ebfca8c14bb2f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1bfd0e3f78ada3b04c62dc1b08e174') in 0.054577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/hexagon kit/Models/FBX format/river-end.fbx
+  artifactKey: Guid(ce26e61694d292d4e86aa17a232ae834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/river-end.fbx using Guid(ce26e61694d292d4e86aa17a232ae834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9004121c88bac58b178172f7df54d808') in 0.027166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-square.fbx
+  artifactKey: Guid(d7425cccb20d4ab4296ea385ae3b630c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-square.fbx using Guid(d7425cccb20d4ab4296ea385ae3b630c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb58935beb8ef76711184ede6ea8971f') in 0.028641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-square-end.fbx
+  artifactKey: Guid(dfbb5d9a55f0a184888f070957794320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-square-end.fbx using Guid(dfbb5d9a55f0a184888f070957794320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94832cc968fd8e21393bb2df04e395cd') in 0.027892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/hexagon kit/Models/FBX format/path-intersectionH.fbx
+  artifactKey: Guid(4edbd8b914c8b4e4aa59a69d59a9eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/path-intersectionH.fbx using Guid(4edbd8b914c8b4e4aa59a69d59a9eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8474e7a56cd11cb7dcc1344e09627765') in 0.026327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.593592 seconds.
+  path: Assets/hexagon kit/Models/FBX format/river-intersectionA.fbx
+  artifactKey: Guid(607fa102fe9b0e84e9f041f8e1948240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/river-intersectionA.fbx using Guid(607fa102fe9b0e84e9f041f8e1948240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e2af752fa02a1b24e8a81cd39d7de1') in 0.024496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/hexagon kit/Models/FBX format/river-intersectionH.fbx
+  artifactKey: Guid(eeb118e07468268419eeec76e8f68ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/river-intersectionH.fbx using Guid(eeb118e07468268419eeec76e8f68ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a266e6bf55b174b87ed6c897f4383704') in 0.024969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/hexagon kit/Models/FBX format/river-intersectionE.fbx
+  artifactKey: Guid(bf0bd15cdc8318b4ca8f873aa8084266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/river-intersectionE.fbx using Guid(bf0bd15cdc8318b4ca8f873aa8084266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6162832edd599a144573e4f419a0887c') in 0.024946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/hexagon kit/Models/FBX format/unit-mansion.fbx
+  artifactKey: Guid(768f0bfcae41a8343aab06b91a187eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/unit-mansion.fbx using Guid(768f0bfcae41a8343aab06b91a187eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8574dff8df2e54a1e12c60c39e4e04f1') in 0.029320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/hexagon kit/Models/FBX format/unit-ship.fbx
+  artifactKey: Guid(f5b920293bae8f94f88473f3dd520ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/unit-ship.fbx using Guid(f5b920293bae8f94f88473f3dd520ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fa1c73da7055ce52dac2b1e34c00ee') in 0.027030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/hexagon kit/Models/FBX format/stone-hill.fbx
+  artifactKey: Guid(4e492c2078229674085b42a681899711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/stone-hill.fbx using Guid(4e492c2078229674085b42a681899711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aac3d779bbfadbd2ffcbecf8ed5a9c5') in 0.025984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/hexagon kit/Models/FBX format/river-intersectionF.fbx
+  artifactKey: Guid(8d8c7cb5b28dd2343942ec60f18a02ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/river-intersectionF.fbx using Guid(8d8c7cb5b28dd2343942ec60f18a02ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16f54ea9f0006a4f521b35e68a20286') in 0.027790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/hexagon kit/Models/FBX format/unit-wall-tower.fbx
+  artifactKey: Guid(7ce05f0f13dae604cae0326656b703eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/unit-wall-tower.fbx using Guid(7ce05f0f13dae604cae0326656b703eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603b789c64bcca22fefb16f10908e7ed') in 0.026382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/hexagon kit/Models/FBX format/stone-rocks.fbx
+  artifactKey: Guid(2447477304eb1d444baf58bcae6fc809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/stone-rocks.fbx using Guid(2447477304eb1d444baf58bcae6fc809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2380d3179ce68bb843f6058396cd76e') in 0.032175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/hexagon kit/Models/FBX format/unit-mill.fbx
+  artifactKey: Guid(1ca83c8c040785743ab0a3edb22f1967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/unit-mill.fbx using Guid(1ca83c8c040785743ab0a3edb22f1967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b414b4dd94e257bac2706872971ff5') in 0.044482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/hexagon kit/Models/FBX format/river-start.fbx
+  artifactKey: Guid(415b396360bda574b926baa577f77b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/river-start.fbx using Guid(415b396360bda574b926baa577f77b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d4739b23bb16fcf0e1d3bd13ec6df4') in 0.032937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/hexagon kit/Models/FBX format/river-intersectionC.fbx
+  artifactKey: Guid(4869fb9f7f3abb246ae101d6a95507e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/river-intersectionC.fbx using Guid(4869fb9f7f3abb246ae101d6a95507e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b1f21fd39b8fad1d6d8c399d3967ea') in 0.030979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/hexagon kit/Models/FBX format/water-rocks.fbx
+  artifactKey: Guid(39a494442d8fab24ea3a5e90892373ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/water-rocks.fbx using Guid(39a494442d8fab24ea3a5e90892373ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534ab9a8fa72ccd734bb7c1a98d625fd') in 0.032583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/hexagon kit/Models/FBX format/unit-tower.fbx
+  artifactKey: Guid(6bc0745347f54374eb8047e770ed96ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/FBX format/unit-tower.fbx using Guid(6bc0745347f54374eb8047e770ed96ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445184df6d5b31a4e5357552884ca519') in 0.029774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3865.330488 seconds.
+  path: Assets/graveyard kit/Previews/iron-fence-damaged.png
+  artifactKey: Guid(51643988b6b8acf41bed4ce30d6558f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Previews/iron-fence-damaged.png using Guid(51643988b6b8acf41bed4ce30d6558f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158a79c59cb50df3d738fd8cc9536203') in 0.070603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 58.911555 seconds.
+  path: Assets/hexagon kit/Previews/building-watermill.png
+  artifactKey: Guid(b281e9647ebc19045a59a884f8693731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Previews/building-watermill.png using Guid(b281e9647ebc19045a59a884f8693731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c1334dcef93486dbff6a97aa95f2fa') in 0.014389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008594 seconds.
+  path: Assets/hexagon kit/Previews/water.png
+  artifactKey: Guid(3d448dd31be50ef498780952b7d4b89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Previews/water.png using Guid(3d448dd31be50ef498780952b7d4b89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a607f4bb097c70a023c62f0bfd6f1a') in 0.013111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/hexagon kit/Previews/water-island.png
+  artifactKey: Guid(01bcdf96d7684764a9eec9be12362344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Previews/water-island.png using Guid(01bcdf96d7684764a9eec9be12362344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c619dd4440f3c1abddfc73d0ba0ae') in 0.014120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/hexagon kit/Previews/water-rocks.png
+  artifactKey: Guid(f1e12234d1f2a3d4ab5bd84c920aac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Previews/water-rocks.png using Guid(f1e12234d1f2a3d4ab5bd84c920aac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5f8eaaa65094898fab986cf12af827') in 0.024117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/hexagon kit/Models/OBJ format/water.obj
+  artifactKey: Guid(2eeb25a872cca294db0e2ec5b510e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hexagon kit/Models/OBJ format/water.obj using Guid(2eeb25a872cca294db0e2ec5b510e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b5b362f354e2fe2dbd2e7d0e7bd0b7') in 0.049386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 69.196668 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs
+  artifactKey: Guid(bf1f19c606e34194d8813a966807a020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs using Guid(bf1f19c606e34194d8813a966807a020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b564cfcb336a4570447409de7ad930d') in 0.000824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.523037 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/AnimLayer.mask
+  artifactKey: Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animator/AnimLayer.mask using Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a23c124cced376d9126667b2ad70be8') in 0.001568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.475530 seconds.
+  path: Assets/RPG Tiny Hero Duo/Texture/Albedo.png
+  artifactKey: Guid(a63884258dc521b4085d9bc96fe60c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Texture/Albedo.png using Guid(a63884258dc521b4085d9bc96fe60c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221d12df2d3647e414706bd1f310bf74') in 0.048895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 916.170872 seconds.
+  path: Assets/graveyard kit/Previews/stone-wall-column.png
+  artifactKey: Guid(b1544da8046de4b419835d51f67a6cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graveyard kit/Previews/stone-wall-column.png using Guid(b1544da8046de4b419835d51f67a6cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e1877000052f07c35fbee2ce71e9cb') in 0.014863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017912 seconds.
+  path: Assets/survivorkit/Previews/structure-metal-doorway.png
+  artifactKey: Guid(45278bd7ab4db7c43a69c613644be91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/survivorkit/Previews/structure-metal-doorway.png using Guid(45278bd7ab4db7c43a69c613644be91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ba1cdac8dc6656d8480a205ffbdd7e') in 0.012476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3285.628973 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Castle.fbx
+  artifactKey: Guid(adb572aa6b3c56f4b86935bb928c5fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Castle.fbx using Guid(adb572aa6b3c56f4b86935bb928c5fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee35dd50b1f66fc6d0e2338682db4c3e') in 0.141917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 134.083762 seconds.
+  path: Assets/Acronym Studio - Wooden Houses Free
+  artifactKey: Guid(77924394485962e43a10c2ed76bc1677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acronym Studio - Wooden Houses Free using Guid(77924394485962e43a10c2ed76bc1677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5737daa926663a1ac106d832b7908bd') in 0.010595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.723856 seconds.
+  path: Assets/Acronym Studio - Wooden Houses Free/Models
+  artifactKey: Guid(9dcb8d38b6c61e04ab2dae4cd9b7f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acronym Studio - Wooden Houses Free/Models using Guid(9dcb8d38b6c61e04ab2dae4cd9b7f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669b7cb947e4cb0217dda63566fb08e8') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
